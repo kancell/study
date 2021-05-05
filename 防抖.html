@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<style>
+    .bb {
+        width: 100px;
+        height: 100px;
+        background: firebrick
+    }
+</style>
+</head>
+<body>
+    <div class="bb"></div>
+    <script>
+        function oo() {
+            console.log('abc')
+        }
+        let a = document.getElementsByClassName('bb')[0]
+        a.onmousemove = debounce(oo, 1000)
+
+        function debounce(func, timeout) {
+            let timer = null
+            return function () {
+                clearTimeout(timer)
+                timer = setTimeout(func, timeout)
+            }
+        }
+    </script>
+</body>
