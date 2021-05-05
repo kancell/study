@@ -1,0 +1,4 @@
+promise构造函数接受一个函数作为参数，这个函数的两个参数分别是resolve与reject，由js引擎提供，不需要手动添加，这个函数中包裹异步操作，并在回调中调用resolve或reject，使promise进入pending后的下一状态
+promise有三种状态pending、fulfilled、rejected  
+或者说两种，pending和resolved，resolved包括成功fulfilled与rejected  
+then返回一个promise对象
