@@ -25,16 +25,22 @@ const ClassMap = new Map([
 ]);
 
 
-let proxy1 = new Proxy(ClassObject, {
-  set(taget, props) {
-    console.log(13213)
-    return true
-  }
-});
+const handler = {
+  get(target, prop) {
+    if(Array.isArray(target.get(prop))) {
+      return target.get(prop).join(' ')
+    }
+    
+    if(typeof target.get(prop) === 'object' && target.get(prop) !== null) {
+      return new Proxy(target.get(prop), handler)
+    }   
+    return Reflect.get(target, prop)
+  },
+}
+const proxy = new Proxy(ClassMap, handler);
+console.log(proxy.get.call('type'))
 
-proxy1.type.primary = 1
-
-
+/*
 interface Obj {
   a: Function;
   b: string;
@@ -59,3 +65,4 @@ typedKeys(obj).forEach(k => console.log(obj[k]));
 typedKeys(obj).forEach(k => {
   let a: string = obj[k]; //  error TS2322: Type 'string | Function'                         // is not assignable to type 'string'                        //  Type 'Function' is not assignable to type 'string'.
 });
+*/
