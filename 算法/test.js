@@ -1,7 +1,6 @@
-let a = (function(){
-    let x = {};
-    x['y'] = [1];
-    console.log(x)
-    return x;
-})()
-console.log(a)
+s = 'abc'
+for (let i = 0; i < s.length; i++) {
+    for (let j = s.length; j > i; j--) {
+        console.log(s[i],s[j])
+    }
+}
