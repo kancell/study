@@ -53,6 +53,7 @@
 - cookie
 - 兼容性
 - 缓存留存时间
+- 性能优化
 ## React
 - 虚拟dom
 - jsx
@@ -89,9 +90,11 @@
 - 为什么选择
 ## 现代前端框架
 - vue与react区别
+- vue与react相同点
 - 与jq区别
 - 虚拟dom与手动dom差异
 - 重运行时框架与无运行时框架区别
+- react性能优化
 ## 打包工具
 - webpack作用
 - webpack配置
