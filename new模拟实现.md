@@ -1,3 +1,11 @@
+<!--
+ * @Author: xxxafu
+ * @Date: 2022-02-19 08:33:26
+ * @LastEditTime: 2022-03-12 17:33:08
+ * @LastEditors: xxxafu
+ * @Description: 
+ * @FilePath: \study\new模拟实现.md
+-->
 ```javascript
 function objectFactory(fun, params) {
     let obj = new Object()
@@ -25,4 +33,4 @@ console.log(person.habit) // Games
 console.log(person.strength) // 60
 
 person.sayYourName(); // I am Kevin
-```0
+```
