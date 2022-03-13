@@ -1,10 +1,15 @@
 # 目录
+
 ## HTML
+
 - Html5新特性
 - 块级元素/行内元素/可替换元素区别
 - 举例块级元素/行内元素/可替换元素
 - 语义化
+- script标签
+
 ## CSS
+
 - css3新特性
 - 实现渐变/动画
 - 绘制三角形
@@ -21,12 +26,15 @@
 - css预编译器
 - 现代css框架
 - 定位
+
 ## JavaScript
+
 - 基本类型
 - 引用类型
 - 特殊包装类型
 - 类型判断
 - 浮点数精度问题
+- 深浅copy
 - dom
 - ajax
 - 闭包
@@ -44,11 +52,15 @@
 - proxy/reflect
 - 模块机制
 - this指向
+
 ## TypeScript
+
 - 类型体操
 - 泛型
 - type与interface区别
+
 ## 浏览器
+
 - localStrog
 - cookie
 - 兼容性
@@ -56,7 +68,9 @@
 - 性能优化
 - 渲染流程
 - 跨域
+
 ## React
+
 - 虚拟dom
 - jsx
 - 渲染机制
@@ -74,7 +88,9 @@
 - 源码级
 - 生态
 - 为什么选择
+
 ## Vue
+
 - vue3新特性
 - vue2升级vue3问题
 - 组件通信
@@ -90,14 +106,24 @@
   - element组件库
 - 源码级
 - 为什么选择
+
 ## 现代前端框架
+
 - vue与react区别
 - vue与react相同点
 - 与jq区别
 - 虚拟dom与手动dom差异
 - 重运行时框架与无运行时框架区别
 - react性能优化
+
+## git
+
+- git stash的作用？
+- git cherrypick的作用？
+- git merge 与git rebase的区别
+
 ## 打包工具
+
 - webpack作用
 - webpack配置
 - webpack原理
@@ -106,7 +132,9 @@
 - pnpm
 - vite
 - rollup
+
 ## Http
+
 - 1.0
 - 1.1
 - 2.0
@@ -116,12 +144,23 @@
 - https
 - 缓存配置
 - dns解析
+
 ## Tcp
+
 - 三次握手
 - 四次挥手
+
 ## 安全
+
 ## NodeJs
+
 ## 小程序相关
+
 ## 算法
+
 ## 综合
+
+- 自我介绍
+- 项目中的重难点
+- 职业规划
 - 从输入url到页面显示
