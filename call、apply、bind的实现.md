@@ -1,4 +1,5 @@
 ## bind
+
 ```javascript
 let foo = {
     value: 1
@@ -9,7 +10,9 @@ function bar () {
 let barfoo = bar.bind(foo)
 barfoo() //1
 ```
+
 使用call\apply实现bind，
+
 ```javascript
 Function.prototype.bind2 = function (param) {
     return () => {
@@ -17,7 +20,9 @@ Function.prototype.bind2 = function (param) {
     }
 }
 ```
+
 如果要传参呢
+
 ```javascript
 Function.prototype.bind2 = function (param) {
     let self = this
